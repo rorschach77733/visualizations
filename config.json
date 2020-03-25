@@ -1,0 +1,154 @@
+{
+    "config": {
+        "mapState": {
+            "bearing": 0,
+            "dragRotate": false,
+            "isSplit": false,
+            "latitude": 37.7730789414038,
+            "longitude": -122.45414919545227,
+            "pitch": 0,
+            "zoom": 11.496862654122669
+        },
+        "mapStyle": {
+            "mapStyles": {},
+            "styleType": "light",
+            "threeDBuildingColor": [
+                218.82023004728686,
+                223.47597962276103,
+                223.47597962276103
+            ],
+            "topLayerGroups": {},
+            "visibleLayerGroups": {
+                "3d building": false,
+                "border": false,
+                "building": true,
+                "label": true,
+                "land": true,
+                "road": true,
+                "water": true
+            }
+        },
+        "visState": {
+            "animationConfig": {
+                "currentTime": null,
+                "speed": 1
+            },
+            "filters": [],
+            "interactionConfig": {
+                "brush": {
+                    "enabled": false,
+                    "size": 0.5
+                },
+                "tooltip": {
+                    "enabled": true,
+                    "fieldsToShow": {
+                        "Construction": [
+                            "startX",
+                            "startY"
+                        ]
+                    }
+                }
+            },
+            "layerBlending": "normal",
+            "layers": [
+                {
+                    "config": {
+                        "color": [
+                            253,
+                            121,
+                            0
+                        ],
+                        "columns": {
+                            "geojson": "geometry"
+                        },
+                        "dataId": "Construction",
+                        "isVisible": true,
+                        "label": "Construction",
+                        "textLabel": [
+                            {
+                                "alignment": "center",
+                                "anchor": "start",
+                                "color": [
+                                    255,
+                                    255,
+                                    255
+                                ],
+                                "field": null,
+                                "offset": [
+                                    0,
+                                    0
+                                ],
+                                "size": 18
+                            }
+                        ],
+                        "visConfig": {
+                            "colorRange": {
+                                "category": "Uber",
+                                "colors": [
+                                    "#5A1846",
+                                    "#900C3F",
+                                    "#C70039",
+                                    "#E3611C",
+                                    "#F1920E",
+                                    "#FFC300"
+                                ],
+                                "name": "Global Warming",
+                                "type": "sequential"
+                            },
+                            "elevationScale": 5,
+                            "enable3d": false,
+                            "filled": true,
+                            "heightRange": [
+                                0,
+                                500
+                            ],
+                            "opacity": 0.8,
+                            "radius": 10,
+                            "radiusRange": [
+                                0,
+                                50
+                            ],
+                            "sizeRange": [
+                                0,
+                                10
+                            ],
+                            "strokeColor": null,
+                            "strokeColorRange": {
+                                "category": "Uber",
+                                "colors": [
+                                    "#5A1846",
+                                    "#900C3F",
+                                    "#C70039",
+                                    "#E3611C",
+                                    "#F1920E",
+                                    "#FFC300"
+                                ],
+                                "name": "Global Warming",
+                                "type": "sequential"
+                            },
+                            "stroked": false,
+                            "thickness": 0.5,
+                            "wireframe": false
+                        }
+                    },
+                    "id": "vtz7i39e",
+                    "type": "geojson",
+                    "visualChannels": {
+                        "colorField": null,
+                        "colorScale": "quantile",
+                        "heightField": null,
+                        "heightScale": "linear",
+                        "radiusField": null,
+                        "radiusScale": "linear",
+                        "sizeField": null,
+                        "sizeScale": "linear",
+                        "strokeColorField": null,
+                        "strokeColorScale": "quantile"
+                    }
+                }
+            ],
+            "splitMaps": []
+        }
+    },
+    "version": "v1"
+}
